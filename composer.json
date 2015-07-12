@@ -1,0 +1,27 @@
+{
+    "name": "radphp/asset-bundle",
+    "type": "radphp-bundle",
+    "license": "MIT",
+    "description": "Asset helper bundle",
+    "keywords": ["RadPHP", "asset", "bundle"],
+    "authors": [
+        {
+            "name": "Mohammad Abdoli Rad",
+            "email": "m.abdolirad@gmail.com",
+            "role": "Project Founder"
+        },
+        {
+            "name": "Omid Mottaghi Rad",
+            "email": "omidmr@gmail.com",
+            "role": "Project Founder"
+        }
+    ],
+    "require": {
+        "radphp/radphp": "dev-master"
+    },
+    "autoload": {
+        "psr-4": {
+            "Asset\\": "."
+        }
+    }
+}
