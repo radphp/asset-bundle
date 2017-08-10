@@ -4,6 +4,7 @@
     "license": "MIT",
     "description": "Asset helper bundle",
     "keywords": ["RadPHP", "asset", "bundle"],
+    "minimum-stability": "dev",
     "authors": [
         {
             "name": "Mohammad Abdoli Rad",
@@ -17,7 +18,7 @@
         }
     ],
     "require": {
-        "radphp/radphp": "dev-master"
+        "radphp/radphp": "~0.2"
     },
     "autoload": {
         "psr-4": {
