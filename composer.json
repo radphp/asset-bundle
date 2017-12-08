@@ -18,11 +18,16 @@
         }
     ],
     "require": {
-        "radphp/radphp": "~0.2"
+        "radphp/radphp": "0.2.x-dev"
     },
     "autoload": {
         "psr-4": {
             "Asset\\": "."
+        }
+    },
+    "extra": {
+        "branch-alias": {
+            "dev-master": "0.2-dev"
         }
     }
 }
